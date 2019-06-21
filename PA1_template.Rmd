@@ -91,7 +91,7 @@ median2
 The new mean after adding value to the NAs is 9728.399 and the new median is 10395. Adding new data has clearly changed the mean and median. In this case it has lowered it because the numbers added were smaller than the majority of the previously existing data.
 
 ## Are there differences in activity patterns between weekdays and weekends?
-```{r}
+```{r, echo=TRUE}
 #Create a new factor variable in the dataset with two levels - "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
 data6$date<- as.character(data6$date)
 data6$date<-as.Date(data6$date,"%Y-%m-%d")
